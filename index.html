@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Magic Numbers</title>
+  </head>
+  <body>
+  
+
+  <div class="content">
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="row mb-5">
+            <div class="col-md-4 mr-auto">
+              <h3 class="thin-heading mb-4">Đá 4</h3>
+              <p>Ví dụ đá 4 là 01-02-03-04</p>
+            </div>
+            <div class="col-md-6 ml-auto">
+              <h3 class="thin-heading mb-4">Giải thích</h3>
+              <p>Xiên 2: 01-02 <br>Xiên 2: 01-03 <br>Xiên 2: 01-04 <br>Xiên 2: 02-03 <br>Xiên 2: 02-04 <br>Xiên 2: 03-04 
+                <br>(Tất cả 6 giải Xiên 2: 15k/giải)
+                <br> Xiên 3: 01-02-03 <br>Xiên 3: 01-02-04 <br>Xiên 3: 01-03-04 <br>Xiên 3: 02-03-04 
+                <br>(Tất cả 4 giải xiên 4: 64k/giải)
+                <br> Xiên 4: 01-02-03-04
+                <br>(Tất cả 1 giải: 178k/1 giải) 64k
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              
+              <h3 class="thin-heading mb-4">Tính đá 4</h3>
+
+              <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="name" id="numberinput" placeholder="Nhập số từ 1-10 (x11 giải ra tiền)">
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <input id="sum-money" readonly type="text" class="form-control" name="name" placeholder="Tổng tiền">
+                  </div>
+                </div>
+                <!-- <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="2" placeholder="Write your message"></textarea>
+                  </div>
+                </div>   -->
+                <!-- <div class="row">
+                  <div class="col-12">
+                    <input type="submit" value="Tính toán" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                  </div>
+                </div> -->
+              </form>
+
+              <!-- <div id="form-message-warning mt-4"></div>  -->
+              <div id="form-message-success">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
